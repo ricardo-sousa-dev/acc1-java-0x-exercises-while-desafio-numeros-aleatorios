@@ -8,7 +8,11 @@ public class NumerosAleatorios {
    * 
    */
   public static void main(String[] args) {
-    // Seu código vai aqui
+    int numAleatorio = 0;
+    do {
+      numAleatorio = numeroAleatorio();
+      imprime(numAleatorio);
+    } while (numAleatorio != 4);
   }
 
   // Chame a função escrevendo `imprime()`.
